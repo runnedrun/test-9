@@ -3,6 +3,7 @@ console.log("popasd")
 window.addEventListener('load', function(e) {
 
   window.applicationCache.addEventListener('updateready', function(e) {
+    console.log("inasher");
     if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
       // Browser downloaded a new app cache.
       // Swap it in and reload the page to get the new hotness.
